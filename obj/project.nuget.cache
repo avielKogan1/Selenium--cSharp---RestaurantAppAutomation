@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "F6qygziTVQnIZZkcbhRYoj/2Q+vNOccwZ9cxjvST7ugDn1iOdy6/VyEwz771Rnw2IK3LkReD9r8UImoizXJj9g==",
+  "success": true,
+  "projectFilePath": "/Users/avielkogan/Projects/PracticeAutomation/PracticeAutomation/Selenium--cSharp---RestaurantAppAutomation.csproj",
+  "expectedPackageFiles": [
+    "/Users/avielkogan/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/microsoft.net.test.sdk/17.5.0/microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/microsoft.testplatform.objectmodel/17.5.0/microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/microsoft.testplatform.testhost/17.5.0/microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/restsharp/110.2.0/restsharp.110.2.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/selenium.webdriver/4.10.0/selenium.webdriver.4.10.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/selenium.webdriver.chromedriver/115.0.5790.10200/selenium.webdriver.chromedriver.115.0.5790.10200.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/avielkogan/.nuget/packages/system.text.json/7.0.2/system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
