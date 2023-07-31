@@ -3,7 +3,7 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
 
-namespace PracticeAutomation.Tests.Sanity
+namespace SanityTest
 {
     [TestFixture]
     public class HomePageSanityTest
