@@ -22,7 +22,7 @@ public class DashboardPageAPI
     }
 
     // Define a method for getting the top restaurants.
-    public RestResponse GetTopRestaurantsDefault()
+    public RestResponse GetTopRestaurantsDefaultValue()
     {
         string requestRoute = "restaurants";
         var request = new RestRequest(requestRoute, Method.Get);
@@ -31,5 +31,28 @@ public class DashboardPageAPI
         return response;
     }
 
-    // ... Define other methods here...
+
+    public RestResponse GetTopRestaurants(int top)
+    {
+        string requestRoute = "restaurants" + $"?top={top}";
+        var request = new RestRequest(requestRoute, Method.Get);
+        Console.WriteLine($"GET request sent to : {baseUrl + requestRoute}");
+        var response = _client.Execute(request);
+        return response;
+    }
+
+
+    public RestResponse PatchChangeCuisine(string restaurantName, string cuisineName)
+    {
+        string requestRoute = $"restaurants/{restaurantName}";
+        var request = new RestRequest(requestRoute, Method.Patch);
+        Console.WriteLine($"PATCH request sent to : {baseUrl + requestRoute}");
+        request.AddHeader("Content-Type", "application/json");
+        request.AddJsonBody(new { cuisine = cuisineName });
+
+        var response = _client.Execute(request);
+
+        return response;
+    }
+
 }
